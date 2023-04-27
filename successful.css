@@ -1,0 +1,134 @@
+:root{
+    --main-color: darkblue;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: var(--main-color);
+}
+a{
+    text-decoration: none;
+}
+.nav-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 50px 15px 50px;
+}
+.nav-area .leftside{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-area .leftside #contact-us{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 25px;
+    border-radius: 5px;
+    
+}
+.nav-area .leftside p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 5px; 
+    
+}
+.nav-area .leftside .icon{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin-left: 10px;
+}
+.nav-area .leftside  .fa-instagram{
+    color: #f00f69;
+}
+/*
+ @media only screen and (max-width: 800px){
+        body {
+        	padding: 0px 10px;
+        	font-family: roboto;
+        	margin: 0px;
+		    border: 0px;
+        }
+        a {
+        	text-decoration: none;
+        }
+        nav {
+        	margin-top: -15px;
+        }
+        nav #right-nav {
+        	margin-top: 40px;
+        	float: right;
+        }
+        h2 {
+        	text-align: center;
+        	padding: 5px;
+        	color: darkblue;
+        }
+        #contact-us {
+        	border-radius: 4px;
+        	background: darkblue;
+        	padding: 6px 10px;
+        	color: white;
+        }
+        .icon {
+        	vertical-align: middle;
+        	right: 0%;
+        	margin: 2px 0px;
+        	height: 24px;
+        }
+        #logo, #logo-2 {
+        	margin: 0px;
+	        border: 0px;
+        	vertical-align: middle;
+        	height: 100px;
+        }
+        #pc {
+        	display: flex;
+        	text-align: center;
+        	height: 400px;
+        	margin: 0px auto;
+        }
+    }
+    @media only screen and (min-width: 800px){
+        body {
+        	padding: 4px 10px;
+        	font-family: roboto;
+        	margin: 0px;
+		    border: 0px;
+        }
+        a {
+        	text-decoration: none;
+        }
+        nav {
+        	margin-top: -15px;
+        }
+        nav #right-nav {
+        	margin-top: 40px;
+        	float: right;
+        }
+        #logo, #logo-2 {
+        	margin: 0px;
+	        border: 0px;
+        	vertical-align: middle;
+        	height: 100px;
+        }
+        h2 {
+        	padding: 5px;
+        	color: darkblue;
+        }
+        #contact-us {
+        	border-radius: 4px;
+        	background: darkblue;
+        	padding: 6px 10px;
+        	color: white;
+        }
+        .icon {
+        	vertical-align: middle;
+        	right: 0%;
+        	margin: 2px 0px;
+        	height: 24px;
+        }
+    }
+    */
